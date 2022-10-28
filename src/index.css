@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main-div {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-input {
+  padding: 15px 5px;
+  border: #000 2px solid;
+  width: 100%;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  margin-left: 30px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 10px 15px;
+  margin-bottom: 10px;
+  border: #000 solid 2px;
+}
+
+#container {
+  margin-top: 30px;
+}
